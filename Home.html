@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitoria Martins Alves — Desenvolvedora</title>
+
+    <!-- Fontes do Google Fonts: uma para títulos (Space Grotesk) e uma para texto (Inter) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="Main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ===== CABEÇALHO / NAVEGAÇÃO ===== -->
+    <header class="header">
+        <div class="container header__inner">
+            <a href="#top" class="logo">vm<span>.</span>dev</a>
+            <nav class="nav">
+                <a href="#projetos">Projetos</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="top">
+        <div class="container hero__grid">
+            <div class="hero__text">
+                <h1>Eu escrevo código que resolve problemas reais.</h1>
+                <p class="hero__lead">
+                    Sou estudante de Ciência da Computação focada em software ageis, simples e dinâmicos. Atualmente
+                    estou estudando python, C++ e Git.
+                </p>
+                <div class="hero__actions">
+                    <a href="#projetos" class="btn btn--primary">
+                        <i class="fa-solid fa-code"></i> Ver projetos
+                    </a>
+                    <a href="#contato" class="btn btn--ghost">
+                        <i class="fa-solid fa-paper-plane"></i> Falar comigo
+                    </a>
+                    <a href="https://github.com/VitoriaMrrtini" target="_blank" class="btn btn--ghost">
+                        <i class="fa-brands fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+
+            <!-- Bloco decorativo estilo "editor de código" -->
+            <div class="code-card" aria-hidden="true">
+                <div class="code-card__bar">
+                    <span></span><span></span><span></span>
+                </div>
+                <pre class="code-card__body"><code>const dev = {
+  nome: "Vitoria Martins",
+  stack: ["JS", "C++", "Python"],
+  disponivel: true
+};</code></pre>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROJETOS ===== -->
+    <section class="projects" id="projetos">
+        <div class="container">
+            <h2 class="section-title">Projetos selecionados</h2>
+
+            <div class="projects__list">
+
+                <article class="project">
+                    <div class="project__info">
+                        <h3>App de Receitas</h3>
+                        <p>Aplicativo para buscar e salvar receitas por ingredientes
+                            disponíveis.</p>
+                        <ul class="tags">
+                            <li>React</li>
+                            <li>SQL</li>
+                            <li>BootStrap</li>
+                        </ul>
+                    </div>
+                    <a href="https://github.com/VitoriaMrrtini/projeto-senac-novo" class="project__link">Ver projeto
+                        →</a>
+                </article>
+
+                <article class="project">
+                    <div class="project__info">
+                        <h3>Loja Virtual</h3>
+                        <p>E-commerce simples com carrinho de compras e checkout
+                            simulado, feito como estudo de Node.js.</p>
+                        <ul class="tags">
+                            <li>Node.js</li>
+                            <li>Express</li>
+                            <li>MongoDB</li>
+                        </ul>
+                    </div>
+                    <a href="https://pingodegentecm.com/" class="project__link">Ver projeto →</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SOBRE ===== -->
+    <section class="about" id="sobre">
+        <div class="container about__grid">
+            <h2 class="section-title">Sobre mim</h2>
+            <p>
+                Comecei a programar no ensino médio no desenvolvimento Web, depois passei na Faculdade de Ciência da
+                Computação na Universidade Tecnológica Federal do Paraná.
+                <br> Atualmente do 3° período da faculdade procurando novas experiências de formação e
+                profissionalização.
+            </p>
+            <div class="skills">
+                <span><i class="fa-brands fa-python"></i> Python</span>
+                <span><i class="fa-brands fa-cuttlefish"></i> C++</span>
+                <span><i class="fa-brands fa-html5"></i> HTML</span>
+                <span><i class="fa-brands fa-css3-alt"></i> CSS</span>
+                <span><i class="fa-brands fa-js"></i> JavaScript</span>
+                <span><i class="fa-brands fa-react"></i> React</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTATO ===== -->
+    <section class="contact" id="contato">
+        <div class="container contact__inner">
+            <h2 class="section-title">Vamos conversar?</h2>
+            <p>Estou aberta a oportunidades e projetos freelance.</p>
+            <a href="mailto:vitoriamartinsalves2006@gmail.com" class="btn btn--primary">
+                <i class="fa-solid fa-envelope"></i> Enviar e-mail
+            </a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Vitoria Martins Alves. Feito com HTML e CSS.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
