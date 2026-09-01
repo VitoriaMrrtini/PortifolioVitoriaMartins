@@ -1,8 +1,4 @@
-/* =========================================================
-   1. VARIÁVEIS (tokens de design)
-   Definir cores e espaçamentos em variáveis facilita mudar
-   o visual inteiro do site alterando só um lugar.
-========================================================= */
+
 :root {
   --bg: #0b0e14;
   --bg-alt: #10141d;
@@ -19,15 +15,10 @@
   --max-width: 1080px;
 }
 
-/* =========================================================
-   2. RESET BÁSICO
-   Navegadores têm estilos padrão diferentes; isso deixa
-   tudo com uma base parecida antes de estilizar.
-========================================================= */
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; /* padding e border não somam à largura definida */
+  box-sizing: border-box;
 }
 
 body {
@@ -54,9 +45,6 @@ ul {
   padding: 0 24px;
 }
 
-/* =========================================================
-   3. CABEÇALHO
-========================================================= */
 .header {
   position: sticky;
   top: 0;
@@ -99,10 +87,6 @@ ul {
   color: var(--text);
 }
 
-/* =========================================================
-   4. HERO
-   Grid de 2 colunas no desktop, 1 coluna no mobile.
-========================================================= */
 .hero {
   padding: 96px 0;
 }
@@ -159,7 +143,6 @@ ul {
   border-color: var(--accent);
 }
 
-/* Cartão decorativo estilo editor de código */
 .code-card {
   background: var(--bg-alt);
   border: 1px solid var(--border);
@@ -201,18 +184,12 @@ ul {
   background: #27c93f; /* verde */
 }
 
-/* =========================================================
-   5. TÍTULOS DE SEÇÃO (reaproveitado em várias seções)
-========================================================= */
 .section-title {
   font-family: var(--font-display);
   font-size: 1.8rem;
   margin-bottom: 40px;
 }
 
-/* =========================================================
-   6. PROJETOS
-========================================================= */
 .projects {
   padding: 96px 0;
   background: var(--bg-alt);
@@ -276,9 +253,6 @@ ul {
   font-size: 0.9rem;
 }
 
-/* =========================================================
-   7. SOBRE
-========================================================= */
 .about {
   padding: 96px 0;
 }
@@ -302,9 +276,6 @@ ul {
   font-size: 0.9rem;
 }
 
-/* =========================================================
-   8. CONTATO
-========================================================= */
 .contact {
   padding: 96px 0;
   background: var(--bg-alt);
@@ -320,9 +291,6 @@ ul {
   margin-bottom: 32px;
 }
 
-/* =========================================================
-   9. RODAPÉ
-========================================================= */
 .footer {
   padding: 32px 0;
   text-align: center;
@@ -330,11 +298,6 @@ ul {
   font-size: 0.85rem;
 }
 
-/* =========================================================
-   10. RESPONSIVO
-   Em telas menores que 720px, o hero vira 1 coluna e os
-   cards de projeto empilham em vez de ficar lado a lado.
-========================================================= */
 @media (max-width: 720px) {
   .hero__grid {
     grid-template-columns: 1fr;
