@@ -1,4 +1,3 @@
-
 :root {
   --bg: #0b0e14;
   --bg-alt: #10141d;
@@ -7,7 +6,7 @@
   --accent: #5eead4;
   --accent-2: #a78bfa;
   --border: #1f2532;
-
+  --color: #0cf;
   --font-display: "Space Grotesk", sans-serif;
   --font-body: "Inter", sans-serif;
   --font-mono: "JetBrains Mono", monospace;
@@ -141,6 +140,8 @@ ul {
 
 .btn--ghost:hover {
   border-color: var(--accent);
+  transform: translateY(-2px);
+  transition: all .6s;
 }
 
 .code-card {
@@ -173,15 +174,18 @@ ul {
 }
 
 .code-card__bar span:nth-child(1) {
-  background: #ff5f56; /* vermelho */
+  background: #ff5f56;
+  /* vermelho */
 }
 
 .code-card__bar span:nth-child(2) {
-  background: #ffbd2e; /* amarelo */
+  background: #ffbd2e;
+  /* amarelo */
 }
 
 .code-card__bar span:nth-child(3) {
-  background: #27c93f; /* verde */
+  background: #27c93f;
+  /* verde */
 }
 
 .section-title {
@@ -217,6 +221,8 @@ ul {
 
 .project:hover {
   border-color: var(--accent-2);
+  transform: translateY(-2px);
+  transition: all .10s;
 }
 
 .project h3 {
