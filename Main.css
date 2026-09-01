@@ -1,14 +1,14 @@
 :root {
-  --bg: #0b0e14;
-  --bg-alt: #10141d;
-  --text: #e6e8eb;
-  --text-muted: #8b93a7;
-  --accent: #5eead4;
+  --bg: #110b14;
+  --bg-alt: #1a101d;
+  --text: #eae6eb;
+  --text-muted: #9c8ba7;
+  --accent: #be5eea;
   --accent-2: #a78bfa;
-  --border: #1f2532;
-  --color: #0cf;
-  --font-display: "Space Grotesk", sans-serif;
-  --font-body: "Inter", sans-serif;
+  --border: #2d1f32;
+  --color: #b700ff;
+  --font-display: "Source Code Pro", monospace;
+  --font-body: "Fira Code", monospace;
   --font-mono: "JetBrains Mono", monospace;
 
   --max-width: 1080px;
