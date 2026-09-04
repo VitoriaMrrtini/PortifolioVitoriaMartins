@@ -2,4 +2,3 @@
 
 # trabalhoengenhariadesoftware
 
-# vai_arrebentaaaarrrrr
